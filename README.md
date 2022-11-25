@@ -3,7 +3,7 @@
   
 A learning project @Coderschool.vn 
 
-[Student: Viet] (https://viettrinh.netlify.app) 
+[Student: Viet](https://viettrinh.netlify.app) 
   
 ## Features:
   
