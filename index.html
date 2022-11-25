@@ -8,7 +8,41 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello <span>World </span></h1>
+    <div id="container">
+        <div id="title">
+            <h1>My to-do</h1>
+            <span>Sprezzatura - Studied nonchalance</span>
+        </div>
+        <div id="taskList">
+            <ul class="taskList">
+                <li class="task">
+                    <div class="taskTitle">Task 1</div>
+                    <div class="taskBtnGroup">
+                        <input type="checkbox" class="checkbox checkbox-done">
+                        <button class="deleteTask">X</button>
+                    </div>
+                </li>
+                <li class="task">
+                    <div class="taskTitle">Task 2</div>
+                    <div class="taskBtnGroup">
+                        <input type="checkbox" class="checkbox checkbox-done">
+                        <button class="deleteTask">X</button>
+                    </div>
+                </li>                 
+            </ul>
+            <div class="filter">
+                <label for="filterBtn">Filter finished tasks</label>
+                <input id="filterBtn" type="checkbox"></input>
+            </div>
+        </div>
+        <form action="#" class="taskForm">
+            <label for="taskInput" class = "input-label">Insert New Task</label>
+            <div class="newTaskLine">
+                <input type="text" class="input" id = "taskInput">
+                <button id = "addTask">Add</button>
+            </div>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
