@@ -25,7 +25,7 @@ const markDone = (task) => {
 const markDelete = (task) => {
     task.classList.add("task-delete");
     task.addEventListener("transitionend", () => {
-        task.style.display = "none";
+        task.remove();
     })
 };
 
