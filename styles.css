@@ -100,3 +100,9 @@ body {
     margin-left: 5px;
     font-weight: bolder;
 }
+
+@media screen and (min-width: 700px) {
+    #addTask {
+        display: none;
+    }
+}
